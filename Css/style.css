@@ -1,0 +1,304 @@
+body {
+    font-family: Century;
+}
+
+
+/* topbar Css */
+
+.upperbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.topbar {
+    width: 50%;
+    margin: 0px 10px 0px 10px;
+}
+
+#menubar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topbars a {
+    color: black;
+    text-align: end;
+    text-decoration: none;
+    text-decoration-style: none;
+    text-align: center;
+    padding: 0px 4px 0px 4px;
+}
+
+.logo {
+    width: 1%;
+    padding-bottom: 20px;
+}
+
+.logopng {
+    width: 2%;
+}
+
+.header_logo {
+    width: 15%;
+}
+
+.header_logo,
+.mainlogo {
+    display: flex;
+    justify-content: center;
+}
+
+.navmenu li a {
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.navmenu {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+header a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+/* Center text */
+
+.ctext {
+    text-align: center;
+}
+
+
+/*  Content Css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    p=justify-content: center;
+}
+
+.contentcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* 3 prduct in column in 2 row*/
+
+.square {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.rowimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rowimage {
+    flex-direction: row;
+    padding: 2px;
+    width: 273px;
+}
+
+.image {
+    width: 100%;
+}
+
+.buynow {
+    text-align: center;
+}
+
+.shopnow {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+
+/* 2div in a single div */
+
+.twodiv {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebside {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+}
+
+.sideproduct {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    border: 2px white;
+}
+
+.productimage {
+    padding: 5px;
+}
+
+.productphoto {
+    width: 100%;
+}
+
+
+/* News Letter */
+
+.threediv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.newsdiscount {
+    display: flex;
+    flex-direction: column;
+}
+
+.discount {
+    width: 624.9px;
+    margin: px;
+    height: auto;
+}
+
+#newsletter {
+    background-color: lightgrey;
+}
+
+#newshead {
+    color: black;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.blog {
+    text-align: center;
+    width: 70%;
+}
+
+
+/* social icon */
+
+.sharingicon {
+    display: flex;
+    justify-content: center;
+}
+
+.sharemedia {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.socialmedia {
+    width: 400px;
+}
+
+.socialimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#icon {
+    width: 15%;
+    height: auto;
+}
+
+.icon {
+    justify-content: space-between;
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#footerimage {
+    width: 100%
+}
+
+
+/* payment */
+
+.payment {
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: column;
+    text-align: center;
+    margin: 2px;
+}
+
+.paylogo {
+    justify-content: center;
+}
+
+
+/* footer text */
+
+.bottomfooter {
+    border-bottom: 2px solid black;
+}
+
+.footertext {
+    margin: 40px 60px 50px 60px;
+}
+
+
+/* copyright */
+
+.copyright {
+    text-align: center;
+}
+
+
+/* media responsive */
